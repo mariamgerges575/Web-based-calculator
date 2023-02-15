@@ -1,5 +1,5 @@
 # calculator
-web-based calculator using angular for frontend and java with spring boot framework for backend
+web-based calculator using angular for frontend and java with spring boot framework for backend.
 
 
 
