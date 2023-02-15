@@ -1,0 +1,37 @@
+<div class="calculator">
+  <div class="display-box">
+    <div class="sm_disp">{{small_exp}}</div>
+
+    {{display}}
+  </div>
+  <button class="operator" type="button" (click)="operation('%')">%</button>
+  <button class="operator" type="button" (click)="clear()">CE</button>
+  <button class="operator" type="button" (click)="clear()">C</button>
+  <button class="operator" type="button" (click)="del()">DEL</button>
+  
+  <button class="operator" type="button" (click)="operation('^-1')">1/x</button>
+  <button class="operator" type="button" (click)="operation('^2')">x&#178;</button>
+  <button class="operator" type="button" (click)="operation('root')">&radic;x</button>
+  <button class="operator" type="button" (click)="operation('/')">&divide;</button>
+
+  <button class="button" type="button" (click)="write('7')">7</button>
+  <button class="button" type="button" (click)="write('8')">8</button>
+  <button class="button" type="button" (click)="write('9')">9</button>
+  <button class="operator" type="button" (click)="operation('*')">&#215;</button>
+
+  <button class="button" type="button" (click)="write('4')">4</button>
+  <button class="button" type="button" (click)="write('5')">5</button>
+  <button class="button" type="button" (click)="write('6')">6</button>
+  <button class=operator type="button" (click)="operation('-')">&#8722;</button>
+
+  <button class="button" type="button" (click)="write('1')">1</button>
+  <button class="button" type="button" (click)="write('2')">2</button>
+  <button class="button" type="button" (click)="write('3')">3</button>
+  <button class="operator" type="button" (click)="operation('+')">+</button>
+
+  <button class="operator" type="button" (click)="operation('*-1')">±</button>
+  <button class="button" type="button" (click)="write('0')">0</button>
+  <button class="operator" type="button" (click)="write('.')">.</button>
+  <button class="operator" type="button" (click)="evaluate('')">=</button>
+
+</div>
